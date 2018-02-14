@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nerd Store Edit a Product</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container">
+    <h1>All Products</h1>
+
+    <h2><a href="/products/1">WNYX Mug</a></h2>
+    <h2>Price: $1.50</h2>
+    <p>Description: Get your morning news once you wake up with a cup of joe from... well Joe. He made it with his homemade duct tape.</p>
+    <img src="http://s32.postimg.org/6mceui22t/wnyx_mug.png" alt="">
+  </div>
+  <p> Edit this Product </P
+<form action="/products" method="patch">
+
+  <div>
+  Name of Product: 
+    <input type="text" name="name" placeholder="Nerdy Thing"/>
+  </div>
+  <div>
+    Price: 
+    <input type="text" name="price" placeholder="$25.00"/>
+  </div>
+  <div>
+   Description
+   <input type="text" name="description" placeholder="This nerdy thing is awesome"/>
+  </div>
+   <div>
+    <input type="submit" value="Submit Product"/>
+   </div>
+</body>
+</html>

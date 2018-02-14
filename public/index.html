@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nerd Store</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding" rel="stylesheet">
+  <link rel="stylesheet" href="products.css">
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="index.js" defer></script>>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Nerd Store</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+  <div class="container">
+    <h1>Here are all the products available in the Nerd Store!</h1>
+    <div class="row">
+      <!-- repeating code  -->
+    </div>
+  </div>
+    
+    
+    
+
+    <!-- <h2><a href="/products/2">Lightsaber</a></h2>
+    <h5>$270.10</h2>
+    <p>Part laser, part samuri sword, all awesome. The lightsaber is an elogant weapon for a more civilized age, not nearly as clumsy as a blaster.</p>
+    <img src="http://25.media.tumblr.com/d2456964024018fd930338c099371104/tumblr_n2m73lTx2Q1svn82uo1_400.gif" alt="">
+
+    <h2><a href="/products/3">Space Cowboy Laser Gun</a></h2>
+    <h5>$170.89</h2>
+    <p>This weapon has no other description than, Shiney!.</p>
+    <img src="http://cdn.shopify.com/s/files/1/0289/1534/products/MalPistol_MP-1_1756x988_e53f9448-81ec-41de-9369-4cbad64f18f5_1024x1024.jpg?v=1401915776" alt="">
+
+    <h2><a href="/products/4">DnD Dice Set</a></h2>
+    <h5>$57.00</h2> 
+    <p>Take down mighty dragons with this timeless set of 20 sided wonders.</p>
+    <img src="https://s-media-cache-ak0.pinimg.com/736x/9c/15/7b/9c157bea5331463f9c539cbce739a4b8.jpg" alt="">
+    
+     -->
+  
+</body>
+</html>
+
+
+<template id="product-card">
+<div class= "col-md-4"> 
+  <div class="card mb-5">
+    <img class="card-img-top" src="http://s32.postimg.org/6mceui22t/wnyx_mug.png" alt="">
+    <div class="card-body"></div>
+    <h2 class="card-name">WNYX Mug</h2>
+    <h5 class="card-price">$1.50</h5>
+    <p class="card-description">Get your morning news once you wake up with a cup of joe from... well Joe. He made it with his homemade duct tape.</p>
+    <a class="btn btn-primary float-right" href="/products/1">More Info</a>
+  </div>
+</div>
+</template>
