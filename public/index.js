@@ -14,3 +14,4 @@ axios.get("http://localhost:3000/products").then(function(response) {
     console.log(product);
   });
 });
+ 
